@@ -1,3 +1,3 @@
 # c-basicloop-array
 
-wbs
+wbsner
