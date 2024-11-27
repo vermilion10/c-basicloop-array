@@ -45,7 +45,13 @@ int main() {
     float persentaseKesamaanK = ((float)sama / pjgK) * 100;
     float persentaseKesamaanL = ((float)sama / pjgL) * 100;
 
-    if (persentaseKesamaanK >= N || persentaseKesamaanL >= N) {
+    if (N == 100){
+        if (pjgK == pjgL && persentaseKesamaanK == 100 && persentaseKesamaanL == 100){
+            printf ("sama\n");
+        } else {
+            printf("tidak sama\n");
+        }
+    } else if (persentaseKesamaanK >= N || persentaseKesamaanL >= N) {
         printf("sama\n");
     } else {
         printf("tidak sama\n");
