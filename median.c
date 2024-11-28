@@ -9,9 +9,10 @@ int main(){
     scanf("%d", &N);
     int arr[N];
     float result;
-    printf("enter %d integer (pisah spasi): ", N);
+   
     for(int i = 0; i < N; i++){
-        scanf("%d", &arr[i]);
+         printf("enter integer ke %d: ", i + 1);
+         scanf("%d", &arr[i]);
     }
     if (N%2 == 0){
         result = (arr[N/2-1] + arr[N/2]) / 2.0;
